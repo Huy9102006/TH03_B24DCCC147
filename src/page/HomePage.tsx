@@ -49,7 +49,7 @@ const HomePage: React.FC = () => {
   return (
     <div className="home-page">
       <header className="page-header">
-        <h1 style={{color:'white'}}>Quản lý Sản phẩm</h1>
+        <h1 style={{color:'black'}}>Quản lý Sản phẩm</h1>
         <button style={{background:'#3498db'}} onClick={() => navigate('/add')} className="btn-add">
           Thêm sản phẩm mới
         </button>
